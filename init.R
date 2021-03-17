@@ -9,6 +9,6 @@ options(repos=r)
 # ======================================================================
 
 # packages go here
-install.packages('remotes')
+install.packages('dash', 'dashCoreComponents', 'dashHtmlComponents', 'dashBootstrapComponents', 'ggplot2', 'plotly', 'remotes')
 
 remotes::install_github('plotly/dashR', upgrade=TRUE)
